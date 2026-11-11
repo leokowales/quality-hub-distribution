@@ -1,15 +1,14 @@
 {
-  "version": "1.0.0-rc.3",
-  "notes": "QualityHub 1.0.0-rc.3 — teste em outra máquina Windows.\n\nInclui limpeza de código e artefatos. Instalação e dados de homologação isolados, acesso aprovado por instalação e atualização assinada. Ampliação de cobertura/estratégia fica para a próxima etapa por decisão do responsável; homologação manual e capacidade da rede corporativa ainda não aprovadas.\n",
+  "version": "1.0.0-rc.4",
+  "notes": "QualityHub 1.0.0-rc.4 — Homologação\n\n- Entrada direta na home após criar senha ou fazer login, com cadastros disponíveis em Configurações.\n- E-mail autorizado preenchido automaticamente; Tab da senha segue para confirmação.\n- Ajustes de janela e rolagem para notebooks, incluindo 1280×720.\n- Rastreabilidade visível e desabilitada enquanto não houver sprint ativa.\n\nCandidata para teste controlado da atualização RC3 → RC4. Homologação manual e aprovação para distribuição final continuam pendentes. Exportação e restauração de backup permanecem indisponíveis na interface.\n",
   "platforms": {
     "windows-x86_64": {
       "format": "qualityhub-update-v1",
-      "version": "1.0.0-rc.3",
-      "sha256": "75670c837cb7e16b62ee1d3927742c4adf27f683102c4d6fe9ed113c158ecc3b",
-      "size": 24036032,
-      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.3/QualityHub-1.0.0-rc.3-windows-x64-setup.exe",
-      "signature": "ep0Vdggc0a0IS3DskfgIt6+L2nmVMWXNfVQRt2la6tvsB0pcPwHoVm8lKe9f2Wc3eVWMMYoDc9iLNl7JgZLJBA=="
+      "version": "1.0.0-rc.4",
+      "sha256": "b3fd35221bb25e7d8ac89b938726ea663e9649733c6590b7f23461a91b8f3437",
+      "size": 24028818,
+      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.4/QualityHub-1.0.0-rc.4-windows-x64-setup.exe",
+      "signature": "0ErZxKUDPJY8xmCBD3iBIZOLdyxwk+lANWIK7fGcq6ro5uJmcL00SGRju+eq4AOzQvizIOpyUjO1dr5a3kPfDQ=="
     }
   }
 }
-
