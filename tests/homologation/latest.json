@@ -1,14 +1,14 @@
 {
-  "version": "1.0.0-rc.6",
-  "notes": "﻿QualityHub 1.0.0-rc.6 — Homologação\n\n- Melhorado o espaçamento entre as novidades e o botão de atualização.\n- Removido o aviso global duplicado dentro da página de Atualizações.\n",
+  "version": "1.0.0-rc.7",
+  "notes": "QualityHub 1.0.0-rc.7 — Homologação\n\n- Corrigida a consulta de novas versões para evitar o cache antigo do GitHub Raw.\n- A consulta de disponibilidade e a preparação do download agora usam o manifesto atual pela API pública do GitHub, sem token no aplicativo.\n- Mantidas a verificação da assinatura, a conferência do instalador e a apresentação de erro quando o canal estiver indisponível.\n- Inclui os ajustes da RC6 no espaçamento dos botões e na remoção do aviso duplicado na página de Atualizações.\n\nCandidata de homologação. Versões anteriores ainda podem depender da propagação do cache para encontrar esta atualização; se necessário, use o instalador desta release sobre a instalação existente, com o aplicativo e o acesso BAT fechados, sem desinstalar ou remover os dados.\n",
   "platforms": {
     "windows-x86_64": {
       "format": "qualityhub-update-v1",
-      "version": "1.0.0-rc.6",
-      "sha256": "6e81c3236a13486a556787ba183429f6f495600d047977ed02bfd4c209ee576b",
-      "size": 24031222,
-      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.6/QualityHub-1.0.0-rc.6-windows-x64-setup.exe",
-      "signature": "StGLREFD43HQ1rildafSjX8q8uzNvMFuvfge+vHMby/zeibTWxZcvGwx6ux45F5fPkz3DKrqD43ge49lInBxDQ=="
+      "version": "1.0.0-rc.7",
+      "sha256": "fb3f096ae0ac0e137f6ffa128444c8d0cc261b6810e89303f42e6babe5eb6b3e",
+      "size": 24031639,
+      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.7/QualityHub-1.0.0-rc.7-windows-x64-setup.exe",
+      "signature": "9guBYzZCcv3BcYDv0fNpi8HUTduXZB5ChlIG5qMqhZR4Z3Vp1ApAkqhKA2lV1aBgNkzvC/MRN/mhKPprJavACw=="
     }
   }
 }
