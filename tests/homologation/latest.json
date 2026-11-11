@@ -1,14 +1,14 @@
 {
-  "version": "1.0.0-rc.5",
-  "notes": "QualityHub 1.0.0-rc.5 — Homologação\n\n- Menu lateral com fundo neutro nos temas claro e escuro, logo oficial nos dois estados, larguras de 248/72 px, aparência e perfil reorganizados e rótulos acessíveis.\n- Sprints disponíveis para ativação recarregadas ao navegar da Central de Revisão para a home.\n- Data e hora do congelamento exibidas nas sprints congeladas.\n- Rodapé acompanha o crescimento da página de extração sem sobrepor o conteúdo.\n- Aviso de sincronização do Jira com estilos próprios, fechamento manual/automático em 5 segundos e descarte ao trocar de seção.\n- Falhas de cópia antes da instalação passam a registrar o erro e preservar o estado original, sem confundir falha de backup com instalação interrompida.\n\nCandidata para homologação, ainda sem aprovação de distribuição final. Validação visual dos quatro estados do menu pendente devido à indisponibilidade da ferramenta de navegador. A RC5 não remove registros de interrupção de atualizações anteriores; nesses casos, preserve as cópias e solicite recuperação. Dados locais, credenciais e autorizações existentes devem ser mantidos.\n",
+  "version": "1.0.0-rc.6",
+  "notes": "﻿QualityHub 1.0.0-rc.6 — Homologação\n\n- Melhorado o espaçamento entre as novidades e o botão de atualização.\n- Removido o aviso global duplicado dentro da página de Atualizações.\n",
   "platforms": {
     "windows-x86_64": {
       "format": "qualityhub-update-v1",
-      "version": "1.0.0-rc.5",
-      "sha256": "554fcf1530fcebe6a6c69441df5c5bcd5ecb9a333d607bde3ce8fd522188a7e4",
-      "size": 24030790,
-      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.5/QualityHub-1.0.0-rc.5-windows-x64-setup.exe",
-      "signature": "M83o5icAZONqzSkPsibjw+zDqo3sQsX3pOx132VVgd26l7fDcsXUvO72EcxBealH911WuVnvJ0gnEHBhVJFNAA=="
+      "version": "1.0.0-rc.6",
+      "sha256": "6e81c3236a13486a556787ba183429f6f495600d047977ed02bfd4c209ee576b",
+      "size": 24031222,
+      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.6/QualityHub-1.0.0-rc.6-windows-x64-setup.exe",
+      "signature": "StGLREFD43HQ1rildafSjX8q8uzNvMFuvfge+vHMby/zeibTWxZcvGwx6ux45F5fPkz3DKrqD43ge49lInBxDQ=="
     }
   }
 }
