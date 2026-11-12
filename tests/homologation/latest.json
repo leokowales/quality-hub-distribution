@@ -1,14 +1,15 @@
 {
-  "version": "1.0.0-rc.9",
-  "notes": "QualityHub 1.0.0-rc.9 — Homologação\n\n- O desktop passa a usar o novo layout de acesso aprovado na versão web/BAT.\n- Cabeçalho com a logo oficial do QualityHub, painel institucional e formulário na proporção 34/66%, sem moldura externa.\n- Régua de Execução, Rastreabilidade e Indicadores centralizada e temas claro, escuro e automático preservados.\n- Mantidos login, criação de senha e liberação da instalação, sem redefinir contas ou dados existentes.\n\nCandidata de homologação. Feche o aplicativo e acessos BAT ao instalar; não desinstale nem remova dados ou autorizações existentes.\n",
+  "version": "1.0.0-rc.10",
+  "notes": "ï»¿QualityHub 1.0.0-rc.10 â€” HomologaÃ§Ã£o\n\n- CabeÃ§alho do ROT com logo NTT DATA, texto reposicionado e divisÃ³ria Ãºnica; logo SulAmÃ©rica removido tambÃ©m do HTML exportado.\n- DistribuiÃ§Ã£o pelo BAT com preparaÃ§Ã£o inicial e atualizaÃ§Ã£o pela tela, preservando dados e autorizaÃ§Ã£o individual.\n- Desktop mantÃ©m seu instalador e atualizador prÃ³prios. Modos locais de teste permanecem disponÃ­veis.\n\nCandidata de homologaÃ§Ã£o. Preserve instalaÃ§Ãµes, dados e autorizaÃ§Ãµes existentes; nÃ£o desinstale para atualizar.\n",
   "platforms": {
     "windows-x86_64": {
       "format": "qualityhub-update-v1",
-      "version": "1.0.0-rc.9",
-      "sha256": "976c58a5756f21da66099ee3c3ab595168b623d79320c255baa77ce0823b62d0",
-      "size": 24030657,
-      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.9/QualityHub-1.0.0-rc.9-windows-x64-setup.exe",
-      "signature": "/17LrVf+6hKijFnHjvspIJr1klRdmiw9DHRz70w2sKqpb1n/tIaKmo8jH4I3vtpg/cHNGFHULDlf6p8UNCDZCQ=="
+      "version": "1.0.0-rc.10",
+      "sha256": "0d5d69c0271d224a2929153b76a229f9a44e77d3b4c6a96a7e1dd45f8d22aa17",
+      "size": 23994894,
+      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.10/QualityHub-1.0.0-rc.10-windows-x64-setup.exe",
+      "signature": "7YYYR8T6fLz1YdhjF4TUwz4lXoBy/KdSzGt5MCO2Vt9ae7B61+zaxm2wLTpGc8ySy38wcEGuE44DWbtiJj2jDA=="
     }
   }
 }
+
