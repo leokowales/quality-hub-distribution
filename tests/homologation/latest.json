@@ -1,14 +1,14 @@
 {
-  "version": "1.0.0-rc.7",
-  "notes": "QualityHub 1.0.0-rc.7 — Homologação\n\n- Corrigida a consulta de novas versões para evitar o cache antigo do GitHub Raw.\n- A consulta de disponibilidade e a preparação do download agora usam o manifesto atual pela API pública do GitHub, sem token no aplicativo.\n- Mantidas a verificação da assinatura, a conferência do instalador e a apresentação de erro quando o canal estiver indisponível.\n- Inclui os ajustes da RC6 no espaçamento dos botões e na remoção do aviso duplicado na página de Atualizações.\n\nCandidata de homologação. Versões anteriores ainda podem depender da propagação do cache para encontrar esta atualização; se necessário, use o instalador desta release sobre a instalação existente, com o aplicativo e o acesso BAT fechados, sem desinstalar ou remover os dados.\n",
+  "version": "1.0.0-rc.8",
+  "notes": "QualityHub 1.0.0-rc.8 — Homologação\n\n- Padronizadas as áreas de hover e foco dos controles Aparência, Perfil e Versão no menu lateral.\n- Ajustados os espaçamentos internos, alturas, cantos e alinhamentos dos controles no menu expandido e recolhido.\n\nO novo layout de login continua exclusivo da versão web/BAT; o desktop mantém a tela de acesso atual. Candidata de homologação, sem promoção a versão estável. Mantidas a instalação sem administrador e a preservação dos dados e autorizações existentes.\n",
   "platforms": {
     "windows-x86_64": {
       "format": "qualityhub-update-v1",
-      "version": "1.0.0-rc.7",
-      "sha256": "fb3f096ae0ac0e137f6ffa128444c8d0cc261b6810e89303f42e6babe5eb6b3e",
-      "size": 24031639,
-      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.7/QualityHub-1.0.0-rc.7-windows-x64-setup.exe",
-      "signature": "9guBYzZCcv3BcYDv0fNpi8HUTduXZB5ChlIG5qMqhZR4Z3Vp1ApAkqhKA2lV1aBgNkzvC/MRN/mhKPprJavACw=="
+      "version": "1.0.0-rc.8",
+      "sha256": "9133bf929651e0f1d4b29c0829bf531406a7f44a52cbddc2c3c5a36d0fc69c2e",
+      "size": 24032653,
+      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.8/QualityHub-1.0.0-rc.8-windows-x64-setup.exe",
+      "signature": "Zfs+2OH7+fyzHEqYf9GO2L4VklsVmttzUkKeHAIYiDKTLaxBUUDnRtiOpa+YV1lR043Brg7pOK5O6LCFvpgWAg=="
     }
   }
 }
