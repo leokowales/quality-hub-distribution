@@ -1,14 +1,14 @@
 {
-  "version": "1.0.0-rc.8",
-  "notes": "QualityHub 1.0.0-rc.8 — Homologação\n\n- Padronizadas as áreas de hover e foco dos controles Aparência, Perfil e Versão no menu lateral.\n- Ajustados os espaçamentos internos, alturas, cantos e alinhamentos dos controles no menu expandido e recolhido.\n\nO novo layout de login continua exclusivo da versão web/BAT; o desktop mantém a tela de acesso atual. Candidata de homologação, sem promoção a versão estável. Mantidas a instalação sem administrador e a preservação dos dados e autorizações existentes.\n",
+  "version": "1.0.0-rc.9",
+  "notes": "QualityHub 1.0.0-rc.9 — Homologação\n\n- O desktop passa a usar o novo layout de acesso aprovado na versão web/BAT.\n- Cabeçalho com a logo oficial do QualityHub, painel institucional e formulário na proporção 34/66%, sem moldura externa.\n- Régua de Execução, Rastreabilidade e Indicadores centralizada e temas claro, escuro e automático preservados.\n- Mantidos login, criação de senha e liberação da instalação, sem redefinir contas ou dados existentes.\n\nCandidata de homologação. Feche o aplicativo e acessos BAT ao instalar; não desinstale nem remova dados ou autorizações existentes.\n",
   "platforms": {
     "windows-x86_64": {
       "format": "qualityhub-update-v1",
-      "version": "1.0.0-rc.8",
-      "sha256": "9133bf929651e0f1d4b29c0829bf531406a7f44a52cbddc2c3c5a36d0fc69c2e",
-      "size": 24032653,
-      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.8/QualityHub-1.0.0-rc.8-windows-x64-setup.exe",
-      "signature": "Zfs+2OH7+fyzHEqYf9GO2L4VklsVmttzUkKeHAIYiDKTLaxBUUDnRtiOpa+YV1lR043Brg7pOK5O6LCFvpgWAg=="
+      "version": "1.0.0-rc.9",
+      "sha256": "976c58a5756f21da66099ee3c3ab595168b623d79320c255baa77ce0823b62d0",
+      "size": 24030657,
+      "url": "https://github.com/leokowales/quality-hub-distribution/releases/download/v1.0.0-rc.9/QualityHub-1.0.0-rc.9-windows-x64-setup.exe",
+      "signature": "/17LrVf+6hKijFnHjvspIJr1klRdmiw9DHRz70w2sKqpb1n/tIaKmo8jH4I3vtpg/cHNGFHULDlf6p8UNCDZCQ=="
     }
   }
 }
